@@ -5,20 +5,20 @@ Aplikasi Ecommerce berbasis Laravel 12 + Filament v3
 ## Demo Tampilan
 
 ### Halaman Login Register
-<img width="1901" height="907" alt="image" src="https://github.com/user-attachments/assets/aa112a46-2367-40f8-9a7e-28d74b84fa52" />
-<img width="1900" height="909" alt="image" src="https://github.com/user-attachments/assets/174bb33a-703c-45d4-88b0-43336ca9b74a" />
+<img width="1000" height="907" alt="image" src="https://github.com/user-attachments/assets/aa112a46-2367-40f8-9a7e-28d74b84fa52" />
+<img width="1000" height="909" alt="image" src="https://github.com/user-attachments/assets/174bb33a-703c-45d4-88b0-43336ca9b74a" />
 
 ### Dashboard Admin
-<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/ef3a1af6-6883-4025-88c2-b3e1d34ac37c" />
+<img width="1000" height="909" alt="image" src="https://github.com/user-attachments/assets/ef3a1af6-6883-4025-88c2-b3e1d34ac37c" />
 
 ### Halaman Produk
-<img width="1919" height="857" alt="image" src="https://github.com/user-attachments/assets/a8849cb8-5f5a-4055-be90-79cd5bc0e9bb" />
+<img width="1000" height="857" alt="image" src="https://github.com/user-attachments/assets/a8849cb8-5f5a-4055-be90-79cd5bc0e9bb" />
 
 ### Halaman Checkout
-<img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/6a5a0c73-583b-4c15-8b1a-70fa3fbc61e0" />
-<img width="1900" height="829" alt="image" src="https://github.com/user-attachments/assets/a7e6fa8a-69d6-4933-9976-81212d0f293b" />
-<img width="1896" height="905" alt="image" src="https://github.com/user-attachments/assets/e7a4f39d-c7f4-4d29-ac9c-c910b3b5950d" />
-<img width="1896" height="905" alt="image" src="https://github.com/user-attachments/assets/f32bb4ff-4647-4ee0-a21b-075cb706715b" />
+<img width="1000" height="907" alt="image" src="https://github.com/user-attachments/assets/6a5a0c73-583b-4c15-8b1a-70fa3fbc61e0" />
+<img width="1000" height="829" alt="image" src="https://github.com/user-attachments/assets/a7e6fa8a-69d6-4933-9976-81212d0f293b" />
+<img width="1000" height="905" alt="image" src="https://github.com/user-attachments/assets/e7a4f39d-c7f4-4d29-ac9c-c910b3b5950d" />
+<img width="1000" height="905" alt="image" src="https://github.com/user-attachments/assets/f32bb4ff-4647-4ee0-a21b-075cb706715b" />
 
 ## Fitur Utama
 - Manajemen Produk (CRUD, gambar, kategori, stok, harga)
