@@ -5,12 +5,16 @@ Aplikasi Ecommerce berbasis Laravel 12 + Filament v3
 ## Demo Tampilan
 
 ### Dashboard Admin
-![Dashboard Admin](public/screenshots/dashboard-admin.png)
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/ef3a1af6-6883-4025-88c2-b3e1d34ac37c" />
+
 
 ### Halaman Produk
-![Halaman Produk](public/screenshots/produk.png)
+<img width="1919" height="857" alt="image" src="https://github.com/user-attachments/assets/a8849cb8-5f5a-4055-be90-79cd5bc0e9bb" />
+
 
 ### Halaman Login Register
+<img width="1901" height="907" alt="image" src="https://github.com/user-attachments/assets/aa112a46-2367-40f8-9a7e-28d74b84fa52" />
+<img width="1900" height="909" alt="image" src="https://github.com/user-attachments/assets/174bb33a-703c-45d4-88b0-43336ca9b74a" />
 
 
 ### Halaman Checkout
