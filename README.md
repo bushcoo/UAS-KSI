@@ -31,7 +31,55 @@ Aplikasi Ecommerce berbasis Laravel 12 + Filament v3
 - Upload gambar produk (storage public)
 - Responsive UI (Tailwind CSS)
 - Notifikasi database (Filament)
+  
+## Security Assessment & Best Practice
+Aplikasi ini telah menerapkan beberapa best practice keamanan dan dilakukan assessment sebagai berikut:
 
+- **Autentikasi & Otorisasi**
+  - Menggunakan Laravel Breeze untuk frontend dan guard terpisah untuk admin panel (Filament)
+  - Session admin dan frontend terpisah (guard `web` dan `admin`)
+  - Proteksi route dengan middleware `auth` dan `role`
+
+- **Validasi & Sanitasi Input**
+  - Semua input divalidasi menggunakan Form Request
+  - Validasi tipe data, panjang, dan format
+  - Validasi unik untuk email, slug, SKU, dsb
+
+- **Keamanan Data**
+  - Password di-hash dengan bcrypt
+  - Data sensitif tidak pernah ditampilkan di frontend
+  - Soft delete untuk data penting (produk, kategori, order)
+
+- **Proteksi CSRF & XSS**
+  - Semua form menggunakan CSRF token
+  - Output di-escape di Blade
+  - Tidak ada eval/exec di sisi backend
+
+- **Rate Limiting**
+  - Pembatasan request login, register, dan API
+
+- **File Upload**
+  - Upload gambar hanya ke folder `storage/app/public/products`
+  - Validasi file type dan size (di Filament resource)
+  - File diakses via symlink `public/storage`
+
+- **Session & Cookie**
+  - Cookie terenkripsi
+  - Session timeout mengikuti default Laravel
+  - Session admin dan frontend tidak saling overwrite
+
+- **Assessment Manual**
+  - Uji coba brute force login (rate limit aktif)
+  - Uji upload file non-gambar (ditolak)
+  - Uji XSS di input produk/kategori (output aman)
+  - Uji akses admin tanpa login (redirect ke login)
+  - Uji akses frontend tanpa login (redirect ke login/register)
+
+- **Best Practice Lainnya**
+  - Tidak ada hardcoded credentials di kode
+  - Tidak ada file .env di repo
+  - Tidak ada debug mode di production
+  
 ## Instalasi & Setup
 
 ### 1. Clone Repository
