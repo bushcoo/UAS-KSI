@@ -9,7 +9,7 @@ Aplikasi Ecommerce berbasis Laravel 12 + Filament v3
 <img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/174bb33a-703c-45d4-88b0-43336ca9b74a" />
 
 ### Dashboard Admin
-<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/ef3a1af6-6883-4025-88c2-b3e1d34ac37c" />
+<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/f7a96a46-f3de-43ad-9cc6-f7077ef9e3ec" />
 
 ### Halaman Produk
 <img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/a8849cb8-5f5a-4055-be90-79cd5bc0e9bb" />
