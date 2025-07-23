@@ -97,6 +97,3 @@ php artisan serve
 - Untuk upload gambar produk, gunakan fitur upload di admin panel (Filament)
 - Jika gambar tidak tampil, pastikan sudah menjalankan `php artisan storage:link` dan file ada di `storage/app/public/products/`
 - Untuk development, gunakan `npm run dev` agar assets auto-reload
-
-## Lisensi
-MIT
